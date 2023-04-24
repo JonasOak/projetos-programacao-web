@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+        <!--Elemento utilizado para coletar informações do usuário. "Jonas, 2022"-->
+    </head>
+    <body>
+        <h1>Exemplo de formulário</h1>
+        
+        <form action="#" method="get">
+
+            <label for="nome">Digite seu nome: </label> 
+            <input type="text" name="nome" required /><br>
+
+            <label for="email">Digite seu email: </label>
+            <input type="email" name="email" required /><br>
+
+            <label for="senha">Digite sua senha: </label>
+            <input type="password" name="senha" required /><br>
+
+            <label for="select">Selecione sua merenda: </label>
+            <select name="select" required>
+                <option value="1">Pizza</options>
+                <option value="2">Hamburguer</options>
+                <option value="3">Cachorro-Quente</options>
+            </select><br />
+
+            <input type="hidden" name="nomedavariavel" value="171ouoquequiser" />
+            <!--Serve para passar informação sem que o usuário veja-->
+
+            <input type="submit" value="Enviar Formulário" />
+            
+        </form>
+    </body>
+</html>
